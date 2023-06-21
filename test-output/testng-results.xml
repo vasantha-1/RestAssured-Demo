@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T19:09:17 IST" name="Default suite" finished-at="2023-06-15T19:09:21 IST" duration-ms="3934">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T19:09:17 IST" name="Default test" finished-at="2023-06-15T19:09:21 IST" duration-ms="3934">
+      <class name="Demo.HTTPRequests">
+        <test-method signature="listUsers()[pri:1, instance:Demo.HTTPRequests@66498326]" started-at="2023-06-15T19:09:17 IST" name="listUsers" finished-at="2023-06-15T19:09:19 IST" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method signature="ceate()[pri:2, instance:Demo.HTTPRequests@66498326]" started-at="2023-06-15T19:09:19 IST" name="ceate" finished-at="2023-06-15T19:09:20 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ceate -->
+        <test-method signature="update()[pri:3, instance:Demo.HTTPRequests@66498326]" started-at="2023-06-15T19:09:20 IST" name="update" finished-at="2023-06-15T19:09:20 IST" depends-on-methods="Demo.HTTPRequests.ceate" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method signature="delete()[pri:4, instance:Demo.HTTPRequests@66498326]" started-at="2023-06-15T19:09:20 IST" name="delete" finished-at="2023-06-15T19:09:21 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- Demo.HTTPRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
